@@ -1,0 +1,216 @@
+.bg {
+  opacity: 0.6;
+  background-size:cover;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  padding-left: 0%;
+  padding-right: 35%;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.pro img {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 0px; 
+}
+
+.pros {
+    align-self: center;
+    list-style-type:none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Original Surfer', cursive;
+    position: absolute;
+    left: 250px;
+    top: 45px;
+    padding: 14px 16px;
+    background: yellow;
+
+}
+
+
+
+.food img {
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 400px;
+    left: 550px;
+}
+
+.myfood {
+    position: absolute;
+    top: 605px;
+    right: 350px;
+    left: 400px;
+    font-family: 'Merienda', cursive;
+    line-height: 2;
+    clear: left;
+}
+
+.foods {
+    position: absolute;
+    top: 240px;
+    right: 500px;
+    left: 0px;
+    font-family: 'Merienda', cursive;
+    line-height: 2;
+    clear: left;
+}
+.btn {
+    background: #a30606;
+    background-image: -webkit-linear-gradient(top, #a30606, #a60000);
+    background-image: -moz-linear-gradient(top, #a30606, #a60000);
+    background-image: -ms-linear-gradient(top, #a30606, #a60000);
+    background-image: -o-linear-gradient(top, #a30606, #a60000);
+    background-image: linear-gradient(to bottom, #a30606, #a60000);
+    -webkit-border-radius: 100;
+    -moz-border-radius: 100;
+    border-radius: 100px;
+    font-family: Georgia;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 90px;
+    left: 1200px;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+hr {
+    border-style: none;
+    border-top-style: none;
+}
+
+.type p {
+    font-family: 'Merienda', cursive;
+    line-height: 2;
+    font-size: medium;
+    font-weight: normal;
+    height: 450px;
+    width: 785px;
+    position:relative;
+    left: 550px;
+    top: 1020px;
+    margin-left: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 10px;
+}
+
+.type img {
+    float: left;
+    position: absolute;
+    left: 120px;
+    right: 150px;
+    float: right;
+    width: 350px;
+    height: 200px;
+    top: 1030px;
+    left: 250px;
+    
+}
+
+.type1 {
+    font-family: 'Merienda', cursive;
+    position: absolute;
+    line-height: 2;
+    left: 100px;
+    top: 1255px;
+    right: 650px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.type1 p {
+    position: relative;
+    left: 100px;
+    line-height: 2;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.type2 img {
+    float: left;
+    height: 200px;
+    position: absolute;
+    left: 725px;
+    width: 350px;
+    top: 1275px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.footer {
+    background-color: #aaaaaa;
+    height: 120px;
+    width: 1535px;
+    position: absolute;
+    top: 1525px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.footer .item1 {
+    position: absolute;
+    left: 380px;
+    font-family: 'Merienda', cursive;
+    font-weight: bolder;
+    padding: auto auto;
+    margin: 10px 25px;
+}
+
+.footer .item2 {
+    position: absolute;
+    right: 820px;
+    font-family: 'Merienda', cursive;
+    font-weight: bolder;
+    padding: auto auto;
+    margin: 10px 25px;
+}
+
+.footer .item3 {
+    position: absolute;
+    left: 790px;
+    font-family: 'Merienda', cursive;
+    font-weight: bolder;
+    padding: auto auto;
+    margin: 10px 25px;
+}
+
+.footer .item4 {
+    position: absolute;
+    left: 1040px;
+    font-family: 'Merienda', cursive;
+    font-weight: bolder;
+    padding: auto auto;
+    margin: 10px 25px;
+}
+
+.copy {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: inherit;
+    position: absolute;
+    top: 1585px;
+    left: 680px;
+}
